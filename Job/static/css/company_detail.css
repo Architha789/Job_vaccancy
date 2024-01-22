@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contain {
+    background-image: linear-gradient(rgb(114, 209, 226), rgba(61, 55, 55, 0.836), rgb(121, 178, 192));
+    padding: 20px 0;
+    color: white;
+}
+
+#hedd {
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.nav-link {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.lef{
+    background-color: rgba(233, 226, 226, 0.904);
+    width: 45%; /* Adjust the width as needed */
+    float: left; /* Float the div to the left */
+    height: 85vh;
+    
+}
+
+.call {
+    width: 50%; /* Adjust the width as needed */
+    float: right; /* Float the div to the right */
+    height: 85vh;
+    
+}
+#comp,#des,#ico,.loc,.loc1,#ico1,.web,#web1{
+    margin-left: 5%;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+#comp,.loc,.web{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+#comp{
+    margin-top: 7%;
+}
+#comp,#des{
+    line-height: 0.8;
+}
+.loc,.loc1{
+    line-height: 0.8;
+}
+.web,#web1{
+    line-height: 0.8;
+}
+
+#des,.loc1,#web1{
+    font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family:  sans-serif;
+font-family: 'Teko', sans-serif;
+}
+
+#des1{
+    margin-top: 5%;
+    font-size: 35px;
+}
+

@@ -1,0 +1,94 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    border-width:2px ;
+    background-image: url('../images/job4.jpg'),linear-gradient(rgb(243, 198, 49), rgb(14, 14, 12)) ;
+    background-repeat: no-repeat;
+    background-size: center;
+    
+
+    
+
+}
+.wrapper {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+}
+.contain{
+    /* float: right; */
+
+    background-color: rgba(189, 211, 211, 0.596); 
+    margin: 3% 5%;
+     padding: 10px 20px;
+        /* Additional styling */
+        /* Other styles */
+        /* margin, padding, etc. */
+      
+}
+
+.cols{
+    color: #b9daf5;
+    position: relative;
+    width: 300px;
+    margin: 0px 40px 30px 40px;
+    font-size: larger;
+}
+.cols input{
+       background-color: transparent;  
+        display: block;
+        border: 1px;
+        border-bottom: 2px #fff solid;  
+        color: #fff;
+        width: 100%;
+        padding: 15px 0;
+}
+.cols label{
+    position: absolute;
+    top: 15px;
+    bottom:15px;
+    left: 0;
+    padding-top: 0%;
+    pointer-events: none;
+    color:#fff;
+    
+
+    
+}
+
+.btn{
+    padding: 10px 15px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(190, 219, 209); */
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    border-style:hidden ;
+    border-radius: 10px;
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contain a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#p1{
+    color: #fff;
+    margin-top: 10px;
+}
